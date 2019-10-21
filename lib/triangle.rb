@@ -33,7 +33,7 @@ end
 
 class TriangleError < StandardError
   def message
-    "This isn't a triangle."
+    "This triangle violates triangle inequality and it is illegal"
 end
 
 a = Triangle.new(5, 5, 5)
