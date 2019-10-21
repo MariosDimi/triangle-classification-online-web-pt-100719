@@ -33,7 +33,7 @@ end
 
 class TriangleError < StandardError
   def message
-    "Triangles with no size are illegal"
+    "This isn't a triangle."
 end
 
 a = Triangle.new(5, 5, 5)
